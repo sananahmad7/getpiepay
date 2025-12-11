@@ -79,13 +79,13 @@ const Footer: React.FC = () => {
                   href="tel:18559066395"
                   className="text-white/80 hover:text-[#5B9FB8] transition-colors duration-200"
                 >
-                  18559066395
+                  1-855-906-6395
                 </Link>
               </li>
               <li className="flex items-start gap-3">
                 <MapPin className="w-5 h-5 text-[#5B9FB8] mt-0.5 flex-shrink-0" />
                 <span className="text-white/80">
-                  9741 Preston rd ste 103 Frisco Texas 75034
+                  9741 Preston Rd Ste 103 Frisco Texas 75034
                 </span>
               </li>
             </ul>
