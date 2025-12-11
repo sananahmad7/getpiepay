@@ -85,9 +85,7 @@ const Footer: React.FC = () => {
               <li className="flex items-start gap-3">
                 <MapPin className="w-5 h-5 text-[#5B9FB8] mt-0.5 flex-shrink-0" />
                 <span className="text-white/80">
-                  9741 Preston rd
-                  <br />
-                  ste 103 Frisco Texas 75034
+                  9741 Preston rd ste 103 Frisco Texas 75034
                 </span>
               </li>
             </ul>
