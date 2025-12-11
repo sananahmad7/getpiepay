@@ -58,7 +58,7 @@ const Footer: React.FC = () => {
             </ul>
           </div>
 
-          {/* Contact Info */}
+          {/* Contact Info updated */}
           <div className="">
             <h4 className="text-white  text-2xl md:text-[28px] font-[500]  mb-4">
               Get In Touch
