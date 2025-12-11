@@ -67,7 +67,7 @@ const Footer: React.FC = () => {
               <li className="flex items-start gap-3">
                 <Mail className="w-5 h-5 text-[#5B9FB8] mt-0.5 flex-shrink-0" />
                 <Link
-                  href="info@getpiepay.com"
+                  href="mailto:info@getpiepay.com"
                   className="text-white/80 hover:text-[#5B9FB8] transition-colors duration-200"
                 >
                   info@getpiepay.com
