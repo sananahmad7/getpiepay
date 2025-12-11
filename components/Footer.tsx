@@ -70,7 +70,7 @@ const Footer: React.FC = () => {
                   href="mailto:hello@piepay.com"
                   className="text-white/80 hover:text-[#5B9FB8] transition-colors duration-200"
                 >
-                  info@gofreepay.net
+                  info@getpiepay.com
                 </Link>
               </li>
               <li className="flex items-start gap-3">
@@ -79,15 +79,15 @@ const Footer: React.FC = () => {
                   href="tel:+1234567890"
                   className="text-white/80 hover:text-[#5B9FB8] transition-colors duration-200"
                 >
-                  +1 (234) 567-890
+                  18559066395
                 </Link>
               </li>
               <li className="flex items-start gap-3">
                 <MapPin className="w-5 h-5 text-[#5B9FB8] mt-0.5 flex-shrink-0" />
                 <span className="text-white/80">
-                  123 Finance Street
+                  9741 Preston rd
                   <br />
-                  San Francisco, CA 94102
+                  ste 103 Frisco Texas 75034
                 </span>
               </li>
             </ul>

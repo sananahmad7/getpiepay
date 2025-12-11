@@ -67,10 +67,10 @@ export default function Hero() {
               max-w-[800px] mx-auto md:mx-0
             "
           >
-            Every moment, Pie Pay brings people, businesses, and financial
-            institutions closer together through innovative payment and
-            financial services technology. With Pie Pay, the world becomes more
-            accessible, and financial dreams become a reality.
+            At Pie Pay, we connect people, businesses, and financial
+            institutions through smart, modern payment technology. We make the
+            financial world easier to navigate — and help turn everyday goals
+            into real possibilities.
           </p>
 
           <a
