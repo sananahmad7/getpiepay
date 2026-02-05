@@ -40,7 +40,6 @@ const Footer: React.FC = () => {
               {[
                 { name: "Hero", href: "#hero" },
                 { name: "Who We Serve", href: "#who-we-serve" },
-                { name: "GetPie.io", href: "#get-pie" },
 
                 { name: "Giving Back", href: "#giving-back" },
                 { name: "Apply Now", href: "#hero" },
@@ -55,6 +54,13 @@ const Footer: React.FC = () => {
                   </a>
                 </li>
               ))}
+              <a
+                href="https://www.getpie.io/"
+                target="_blank"
+                className="text-white/80 hover:text-[#5B9FB8] transition-colors duration-200 cursor-pointer"
+              >
+                GetPie.io
+              </a>
             </ul>
           </div>
 

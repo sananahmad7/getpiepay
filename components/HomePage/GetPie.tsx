@@ -10,7 +10,7 @@ export default function Index() {
   const pathname = usePathname();
   const handleScroll = (
     e: React.MouseEvent<HTMLAnchorElement, MouseEvent>,
-    targetId: string
+    targetId: string,
   ) => {
     e.preventDefault();
     if (pathname !== "/") {
@@ -97,8 +97,8 @@ export default function Index() {
               rounded-md text-lg font-normal
               hover:bg-[#01497C]/80  transition-colors duration-300
               "
-                href="#giving-back"
-                onClick={(e) => handleScroll(e, "who-we-serve")}
+                href="https://www.getpie.io/"
+                target="_blank"
               >
                 See GetPie.io &gt;
               </a>

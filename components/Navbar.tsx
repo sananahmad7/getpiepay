@@ -13,7 +13,7 @@ const Navbar: React.FC = () => {
   // Handles internal scrolling to sections
   const handleScroll = (
     e: React.MouseEvent<HTMLAnchorElement, MouseEvent>,
-    targetId: string
+    targetId: string,
   ) => {
     e.preventDefault();
     if (pathname !== "/") {
@@ -54,8 +54,8 @@ const Navbar: React.FC = () => {
             Who We Serve
           </a>
           <a
-            href="#get-pie"
-            onClick={(e) => handleScroll(e, "get-pie")}
+            href="https://www.getpie.io/"
+            target="_blank"
             className="transition hover:text-[#49AA43]"
           >
             GetPie.io
