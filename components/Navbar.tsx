@@ -88,7 +88,7 @@ const Navbar: React.FC = () => {
             target="_blank"
             className="transition hover:text-[#49AA43]"
           >
-            Residual Independence Plan
+            Residual Road Map
           </a>
 
           <Link
@@ -153,7 +153,7 @@ const Navbar: React.FC = () => {
             href="https://piepay.lpages.co/residual-independence-plan/"
             target="_blank"
           >
-            Residual Independence Plan
+            Residual Road Map
           </a>
 
           <Link
