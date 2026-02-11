@@ -83,6 +83,14 @@ const Navbar: React.FC = () => {
             Careers
           </a>
 
+          <a
+            href="https://piepay.lpages.co/residual-independence-plan/"
+            target="_blank"
+            className="transition hover:text-[#49AA43]"
+          >
+            Residual Independence Plan
+          </a>
+
           <Link
             href="#"
             onClick={(e) => {
@@ -116,7 +124,7 @@ const Navbar: React.FC = () => {
           >
             Who We Serve
           </a>
-          <a href="#get-pie" onClick={(e) => handleScroll(e, "get-pie")}>
+          <a href="https://www.getpie.io/" target="_blank">
             GetPie.io
           </a>
           <a
@@ -139,6 +147,13 @@ const Navbar: React.FC = () => {
             className="hover:text-[#49AA43] transition"
           >
             Careers
+          </a>
+
+          <a
+            href="https://piepay.lpages.co/residual-independence-plan/"
+            target="_blank"
+          >
+            Residual Independence Plan
           </a>
 
           <Link
