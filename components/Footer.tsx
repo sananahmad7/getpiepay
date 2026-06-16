@@ -16,10 +16,10 @@ const Footer: React.FC = () => {
   return (
     <footer className="w-full bg-[#014F86] font-['Outfit'] scroll-smooth">
       {/* Main Footer Content */}
-      <div className="container mx-auto px-2  pt-12 sm:pt-16 lg:pt-20 pb-8">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3  gap-10 lg:gap-16 mb-12">
+      <div className="container mx-auto px-2 sm:px-6 lg:px-8 pt-12 sm:pt-16 lg:pt-20 pb-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 lg:gap-16 mb-12">
           {/* Company Info */}
-          <div className=" space-y-6">
+          <div className="space-y-6">
             <div>
               <h3 className="text-white text-2xl md:text-[28px] font-[500] mb-4">
                 PiePay
@@ -32,15 +32,14 @@ const Footer: React.FC = () => {
           </div>
 
           {/* Quick Links */}
-          <div className="">
-            <h4 className="text-white  text-2xl md:text-[28px] font-[500] mb-4">
+          <div>
+            <h4 className="text-white text-2xl md:text-[28px] font-[500] mb-4">
               Quick Links
             </h4>
             <ul className="space-y-3">
               {[
                 { name: "Hero", href: "#hero" },
                 { name: "Who We Serve", href: "#who-we-serve" },
-
                 { name: "Giving Back", href: "#giving-back" },
                 { name: "Apply Now", href: "#hero" },
               ].map((link) => (
@@ -54,39 +53,42 @@ const Footer: React.FC = () => {
                   </a>
                 </li>
               ))}
-              <a
-                href="https://www.getpie.io/"
-                target="_blank"
-                className="text-white/80 hover:text-[#5B9FB8] transition-colors duration-200 cursor-pointer"
-              >
-                GetPie.io
-              </a>
+              <li>
+                <a
+                  href="https://www.getpie.io/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-white/80 hover:text-[#5B9FB8] transition-colors duration-200 cursor-pointer"
+                >
+                  GetPie.io
+                </a>
+              </li>
             </ul>
           </div>
 
           {/* Contact Info updated */}
-          <div className="">
-            <h4 className="text-white  text-2xl md:text-[28px] font-[500]  mb-4">
+          <div>
+            <h4 className="text-white text-2xl md:text-[28px] font-[500] mb-4">
               Get In Touch
             </h4>
             <ul className="space-y-4">
               <li className="flex items-start gap-3">
                 <Mail className="w-5 h-5 text-[#5B9FB8] mt-0.5 flex-shrink-0" />
-                <Link
+                <a
                   href="mailto:info@getpiepay.com"
                   className="text-white/80 hover:text-[#5B9FB8] transition-colors duration-200"
                 >
                   info@getpiepay.com
-                </Link>
+                </a>
               </li>
               <li className="flex items-start gap-3">
                 <Phone className="w-5 h-5 text-[#5B9FB8] mt-0.5 flex-shrink-0" />
-                <Link
+                <a
                   href="tel:18559066395"
                   className="text-white/80 hover:text-[#5B9FB8] transition-colors duration-200"
                 >
                   1-855-906-6395
-                </Link>
+                </a>
               </li>
               <li className="flex items-start gap-3">
                 <MapPin className="w-5 h-5 text-[#5B9FB8] mt-0.5 flex-shrink-0" />
@@ -125,10 +127,24 @@ const Footer: React.FC = () => {
         <div className="w-full h-px bg-white/20 mb-8" />
 
         {/* Bottom Bar */}
-        <div className="flex flex-col sm:flex-row justify-center items-center gap-4 text-sm">
-          <p className="text-white/60 text-center">
+        <div className="flex flex-col sm:flex-row justify-between items-center gap-4 text-sm">
+          <p className="text-white/60 text-center sm:text-left">
             © {new Date().getFullYear()} PiePay. All rights reserved.
           </p>
+          <div className="flex items-center gap-6">
+            <Link
+              href="/privacy-policy"
+              className="text-white/60 hover:text-[#5B9FB8] transition-colors duration-200"
+            >
+              Privacy Policy
+            </Link>
+            <Link
+              href="/terms-and-conditions"
+              className="text-white/60 hover:text-[#5B9FB8] transition-colors duration-200"
+            >
+              Terms & Conditions
+            </Link>
+          </div>
         </div>
       </div>
     </footer>

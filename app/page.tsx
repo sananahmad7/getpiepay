@@ -6,9 +6,10 @@ import WhoWeServe from "@/components/HomePage/WhoWeServe";
 import CloverPlatform from "@/components/HomePage/CloverPlatform";
 import GetPie from "@/components/HomePage/GetPie";
 import LifeAtPiePay from "@/components/HomePage/LifeAtPiePay";
-import Footer from "@/components/Footer";
 import { GivingBack } from "@/components/HomePage/GivingBack";
 import ApplyNowModal from "@/components/ApplyNowModal";
+import { Contact } from "lucide-react";
+import ContactUs from "@/components/HomePage/ContactUs";
 
 export default function Home() {
   const [showModal, setShowModal] = useState(false);
@@ -45,7 +46,9 @@ export default function Home() {
         <GivingBack />
       </section>
 
-      <Footer />
+      <section id="contact">
+        <ContactUs />
+      </section>
 
       {showModal && <ApplyNowModal onClose={() => setShowModal(false)} />}
     </main>

@@ -7,6 +7,7 @@ import Script from "next/script";
 import { MantineProvider } from "@mantine/core";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import Footer from "@/components/Footer";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -56,6 +57,7 @@ export default function RootLayout({
           {children}
           <ToastContainer />
         </MantineProvider>
+        <Footer />
       </body>
     </html>
   );
