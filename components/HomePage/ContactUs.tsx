@@ -211,6 +211,7 @@ const ContactUs = () => {
                       >
                         Privacy Policy
                       </a>
+                      .
                     </label>
                   </div>
 
@@ -231,8 +232,13 @@ const ContactUs = () => {
                       htmlFor="notifications"
                       className="text-sm text-[#6E6E73] font-medium leading-relaxed cursor-pointer"
                     >
-                      I agree to receive notifications via email and SMS from GO
-                      FREE PAY LLC.
+                      <span className="font-bold">Optional:</span> I agree to
+                      receive customer care and support text messages from GO
+                      FREE PAY LLC / PiePay at the phone number provided.
+                      Message frequency may vary. Message and data rates may
+                      apply. Reply HELP for help or STOP to opt out. Consent is
+                      not a condition of purchase, service, support, or
+                      transaction.
                     </label>
                   </div>
                 </div>
